@@ -1,0 +1,4 @@
+github.com/gnzlabs/identity v1.0.0-beta.1 h1:W0cCMawXN9M3Oze9/20K1RmfQ0DoMXkLLf2UdRJIOKQ=
+github.com/gnzlabs/identity v1.0.0-beta.1/go.mod h1:arvD+jdDafbTP0uyqWH5IJWtleRLpdzISWQv+DioTgI=
+github.com/gnzlabs/keyring v1.0.0-beta.4 h1:BpXPCCGoZngz03CeMsZxZvlY7tYMjv4GomQP54F/vHw=
+github.com/gnzlabs/keyring v1.0.0-beta.4/go.mod h1:qAzM1NGMwJhJXvP5uouaEdqNkONcpVnlgmaaVhYl4ag=
