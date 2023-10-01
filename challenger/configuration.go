@@ -7,7 +7,7 @@ import (
 	"github.com/gnzlabs/keyring"
 )
 
-type ChallengerConfiguration struct {
+type Configuration struct {
 
 	// Rand is a an instance of a cryptographically secure
 	// random number generator

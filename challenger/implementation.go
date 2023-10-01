@@ -9,10 +9,10 @@ import (
 
 // NewChallenge implements Challenger for otaChallenger
 func (challenger *otaChallenger) NewChallenge() (challenge.Signed, error) {
-	return nil, errors.New("Not yet implemented")
+	return nil, errors.New("not yet implemented")
 }
 
 // AuthenticateResponse implements Challenger for otaChallenger
 func (challenger *otaChallenger) AuthenticateResponse(response.Signed) error {
-	return errors.New("Not yet implemented")
+	return errors.New("not yet implemented")
 }
