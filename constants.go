@@ -1,4 +1,4 @@
-package otahandshake
+package handshake
 
 type AuthenticationType byte
 

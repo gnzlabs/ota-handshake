@@ -1,4 +1,4 @@
-package otahandshake
+package handshake
 
 import "github.com/gnzlabs/identity"
 
