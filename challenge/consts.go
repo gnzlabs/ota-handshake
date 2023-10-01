@@ -1,10 +1,10 @@
 package challenge
 
 const (
-	ChallengeTimestampLength = 8
-	ChallengeNonceLength     = 32
+	TimestampLength = 8
+	NonceLength     = 32
 )
 
 var (
-	ChallengeLength = ChallengeTimestampLength + ChallengeNonceLength
+	Length = TimestampLength + NonceLength
 )

@@ -3,11 +3,11 @@ package challenge
 type Signed []byte
 
 func (s Signed) Challenge() Challenge {
-	return Challenge(s[0:ChallengeLength])
+	return Challenge(s[0:Length])
 }
 
 func (s Signed) Signature() []byte {
-	return s[ChallengeLength:]
+	return s[Length:]
 }
 
 func NewSigned(c Challenge, signature []byte) (s Signed) {
