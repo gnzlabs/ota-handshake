@@ -1,3 +1,3 @@
-package otahandshake
+package response
 
 type Response []byte
