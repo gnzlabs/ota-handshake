@@ -16,20 +16,29 @@ type Configuration struct {
 	// Timeout defines the lifetime of a challenge in seconds
 	Timeout uint
 
-	// Biometric is a pointer to the hardware-backed certificate
+	// Biometric is a pointer to the identity certificate
 	// authorized to provide biometric authentication
-	Biometric *certificate.HardwareBackedCertificate
+	Biometric certificate.Identity
 
-	// SecurityKey is a pointer to the hardware-backed certificate
+	// SecurityKey is a pointer to the identity certificate
 	// used to authenticate an authorized security key
-	SecurityKey *certificate.HardwareBackedCertificate
+	SecurityKey certificate.Identity
 
-	// KnowledgeCheck is a pointer to the hardware-backed certificate
+	// KnowledgeCheck is a pointer to the identity certificate
 	// authorized to provide PIN/Password authentication
-	KnowledgeCheck *certificate.HardwareBackedCertificate
+	KnowledgeCheck certificate.Identity
 
 	// Keyring is a pointer to an instance of keyring.HardwareKeyRing
 	// used to authenticate the Challenger. The Keyring instance must
 	// be unlocked and ready for use
-	Keyring *keyring.HardwareKeyRing
+	Keyring keyring.HardwareKeyRing
+}
+
+func (c *Configuration) AuthorizedKeys() (certificates []certificate.Identity) {
+	certificates = []certificate.Identity{
+		c.Biometric,
+		c.SecurityKey,
+		c.KnowledgeCheck,
+	}
+	return
 }
