@@ -2,3 +2,5 @@ github.com/gnzlabs/identity v1.0.0-beta.1 h1:W0cCMawXN9M3Oze9/20K1RmfQ0DoMXkLLf2
 github.com/gnzlabs/identity v1.0.0-beta.1/go.mod h1:arvD+jdDafbTP0uyqWH5IJWtleRLpdzISWQv+DioTgI=
 github.com/gnzlabs/keyring v1.0.0-beta.4 h1:BpXPCCGoZngz03CeMsZxZvlY7tYMjv4GomQP54F/vHw=
 github.com/gnzlabs/keyring v1.0.0-beta.4/go.mod h1:qAzM1NGMwJhJXvP5uouaEdqNkONcpVnlgmaaVhYl4ag=
+github.com/gnzlabs/utilities v0.0.0-20230915005016-2eb944e890e6 h1:jnXi/D4fFpX7XdMOhbu1UJS6is1bTav+GVDTpwhAnjU=
+github.com/gnzlabs/utilities v0.0.0-20230915005016-2eb944e890e6/go.mod h1:3aF/AVZ9yPpDC85NRForONaXxt+adqdjJYH3PRp2i/c=
